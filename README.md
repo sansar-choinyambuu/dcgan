@@ -3,6 +3,8 @@ Code to train DCGAN model with celeba dataset. The code is inspired mainly by ht
 
 [celeba](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) - Large scale celebrity faces dataset. Aligned and cropped [version](https://drive.google.com/drive/folders/0B7EVK8r0v71pTUZsaXdaSnZBZzg) was used.
 
+This repository contains code as python files as well as a jupyter notebook [DCGAN_celeba.ipynb](DCGAN_celeba.ipynb) that contains the same code, which can be ran on colab.
+
 ## Installation
 Prerequisite: python 3.7
 
@@ -34,7 +36,7 @@ The training produces the following in the defined backup directory:
 
 ## Results
 Samples from generated images trained with MNIST dataset
-![mnist](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![mnist](gifs/mnist.gif)
 
 Samples from generated images trained with celeba dataset
-![celeba](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![celeba](gifs/celeba.gif)
