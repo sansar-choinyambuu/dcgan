@@ -1,5 +1,5 @@
 # DCGAN celeba
-Code to train DCGAN model with celeba dataset. The code is inspired mainly by https://github.com/YongWookHa/DCGAN-Keras repository.
+Code to train DCGAN model on Keras API and tensorflow with celeba dataset. The code is inspired mainly by https://github.com/YongWookHa/DCGAN-Keras repository.
 
 [celeba](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) - Large scale celebrity faces dataset. Aligned and cropped [version](https://drive.google.com/drive/folders/0B7EVK8r0v71pTUZsaXdaSnZBZzg) was used.
 
