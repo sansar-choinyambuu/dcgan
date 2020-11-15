@@ -195,7 +195,7 @@ class DCGAN():
         plt.close()
 
 if __name__ == "__main__":
-    gan = DCGAN()
+    gan = DCGAN(dataset_name = "celeba", img_size = 28, channels = 3, backup_dir = "backup")
     DEBUG = 0
 
     if DEBUG == 1:
