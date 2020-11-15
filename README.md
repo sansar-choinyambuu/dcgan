@@ -23,6 +23,18 @@ From over 220k images in celeba dataset, the code produces ca 180k cropped face 
 Provides DataLoader class to be used during DCGAN training. The class provides random batch of training images to the model. It can be configured to load all images to the memory which will speed up the training significantly.
 
 ### train.py
-Contains DCGAN model and the training code. 
+Contains DCGAN model and the training code. When trained on the GPU enabled colab environment, one epoch trained within 6 minutes with 185k training images.
+
+The training produces the following in the defined backup directory:
+- model - json model
+- samples - sample images that generator model creates
+- log - tensorboard files
 
 `python train.py`
+
+## Results
+Samples from generated images trained with MNIST dataset
+![mnist](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
+Samples from generated images trained with celeba dataset
+![celeba](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
